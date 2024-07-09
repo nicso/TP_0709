@@ -9,6 +9,9 @@ header{
         font-size: 3em;
         font-weight: bold;
     }
+    ul{
+        margin-left: -40px;
+    }
 }
 article{
     border: 1px solid black;
@@ -46,4 +49,23 @@ a:hover{
 }
 req{
     color: red;
+}
+.img_blog{
+    max-width: 50vw;
+}
+galerie{
+    flex-wrap: wrap;
+    display: flex;
+    background-image: radial-gradient(circle at top, pink, lightblue);
+    padding: 4px;
+}
+galerie > img{
+    margin: 4px;
+    width: 30vw;
+    height: 100%;
+    flex: 1 1 150px;
+}
+.la_classe{
+    background-image: linear-gradient(to bottom, #1fc7d1, #80007e);
+    padding: 20px;
 }
