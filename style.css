@@ -15,9 +15,9 @@ header{
 }
 article{
     border: 1px solid black;
-    text-align: center;
+
     h3{
-        text-align: left;
+        /*text-align: left;*/
         color: #2B2D42;
         font-size: 2em;
         font-weight: bold;
@@ -25,11 +25,12 @@ article{
         text-decoration-style: dashed;
     }
     img{
+        display: block;
         margin: 0 auto;
         border: 2px solid #8D99AE ;
     }
     p{
-        text-align: left;
+        /*text-align: left;*/
     }
 }
 ul {
